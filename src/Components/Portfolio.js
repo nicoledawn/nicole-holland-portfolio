@@ -38,7 +38,7 @@ const Portfolio = () => {
                         <p>For this project we chose to do a Tofino-based cabin rental company and really tried to lean into the West coast vibe and aesthetic. It was important to us that we not only meet and exceed the project requirements but also that the website felt modern, clean and easy to use.</p>
                         <div className="project-buttons">
                             <a rel="noreferrer noopener" target="_blank" href="https://nicoleholland.ca/">View Live Site</a>
-                            <a rel="noreferrer noopener" target="_blank" href="https://github.com/nicoledawn/nicole-holland-portfolio">View Github Repo</a>
+                            <a rel="noreferrer noopener" target="_blank" href="https://github.com/nicoledawn/nicole-holland-portfolio.git">View Github Repo</a>
                         </div>
                     </div>
                 </div>

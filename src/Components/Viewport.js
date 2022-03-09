@@ -41,8 +41,8 @@ const Viewport = () => {
                         <h2>&gt; Project Solution</h2>
                         <p>This was an interesting project where the biggest challenged we faced was utilising the TMDB API and getting it to work correctly using the React framework. A React based site was a great option for this style of website because it helped us to achieve some really interesting effects and functionality that would have been a lot more complicated on a hard-coded or Wordpress based site.</p>
                         <div className="project-buttons">
-                            <a target="_blank" href="https://tonquinvista.bcitwebdeveloper.ca/">View Live Site</a>
-                            <a target="_blank" href="https://github.com/nicoledawn/tonquinvista.git">View Github Repo</a>
+                            <a target="_blank" href="https://nicoleholland.ca/viewport">View Live Site</a>
+                            <a target="_blank" href="https://github.com/nicoledawn/final-movie-db.git">View Github Repo</a>
                         </div>
                     </div>
                 </div>
