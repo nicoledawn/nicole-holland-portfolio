@@ -33,9 +33,9 @@ const Portfolio = () => {
                     <img src={portfolio} alt="" className="thumbnail-image" />
                     <div className="summary-details">
                         <h2>&gt; Project Summary</h2>
-                        <p>This was my capstone project for my BCIT Front-End Web Development program. In a team of four our task was to create a functional cabin rental website using Wordpress and some basic project guidelines. </p>
+                        <p>My portfolio website is a project I have been working on to showcase previous web projects and my c.v. for potential clients and employers to view. </p>
                         <h2>&gt; Project Solution</h2>
-                        <p>For this project we chose to do a Tofino-based cabin rental company and really tried to lean into the West coast vibe and aesthetic. It was important to us that we not only meet and exceed the project requirements but also that the website felt modern, clean and easy to use.</p>
+                        <p>For this website I wanted to use the React.js framework to challenge myself and to build on my existing React knowledge and expand on it to further my skills. It was important for me that the website felt professional and like a c.v. so I utilised a darker colour palette and used a monospaced font to acheive this design. </p>
                         <div className="project-buttons">
                             <a rel="noreferrer noopener" target="_blank" href="https://nicoleholland.ca/">View Live Site</a>
                             <a rel="noreferrer noopener" target="_blank" href="https://github.com/nicoledawn/nicole-holland-portfolio.git">View Github Repo</a>
