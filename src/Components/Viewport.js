@@ -37,9 +37,9 @@ const Viewport = () => {
                     <img src={viewport} alt="" className="thumbnail-image" />
                     <div className="summary-details">
                         <h2>&gt; Project Summary</h2>
-                        <p>This was a project that I completed during my BCIT Web Development program. I worked in a team of four students to develop this website using React.js and the TMDB API. This was a challenging project that focused on a more technical Javascript framework based style of development.</p>
+                        <p>This was a project that I completed during my BCIT Web Development program. I worked in a team of four students to develop this website using React.js and the TMDB API. This was a challenging project that focused on a more technical style of development rather than design-focused.</p>
                         <h2>&gt; Project Solution</h2>
-                        <p>This was an interesting project where the biggest challenged we faced was utilising the TMDB API and getting it to work correctly using the React framework. A React based site was a great option for this style of website because it helped us to achieve some really interesting effects and functionality that would have been a lot more complicated on a hard-coded or Wordpress based site.</p>
+                        <p>I really enjoyed the challenges in this project. The the biggest challenge we faced overall was utilising the TMDB API and getting it to work correctly within the React framework. I was responsible for completing the light and dark mode toggle for the website which was a fun feature to add. I was also responsible for adding the favouriting functionality to the movies using local storage, this really helped me gain a better understanding of React and expand my knowledge on it.</p>
                         <div className="project-buttons">
                             <a target="_blank" href="https://nicoleholland.ca/viewport">View Live Site</a>
                             <a target="_blank" href="https://github.com/nicoledawn/final-movie-db.git">View Github Repo</a>

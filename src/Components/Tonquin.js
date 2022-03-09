@@ -36,7 +36,7 @@ const Tonquin = () => {
                     <img src={tonquin} alt="" className="thumbnail-image" />
                     <div className="summary-details">
                         <h2>&gt; Project Summary</h2>
-                        <p>This was my capstone project for my BCIT Front-End Web Development program. In a team of four our task was to create a functional cabin rental website using Wordpress and some basic project guidelines. </p>
+                        <p>This was my group capstone project for my BCIT Front-End Web Development program. In a team of four our task was to create a functional cabin rental website using Wordpress and some basic project guidelines. </p>
                         <h2>&gt; Project Solution</h2>
                         <p>For this project we chose to do a Tofino-based cabin rental company and really tried to lean into the West coast vibe and aesthetic. It was important to us that we not only meet and exceed the project requirements but also that the website felt modern, clean and easy to use.</p>
                         <div className="project-buttons">

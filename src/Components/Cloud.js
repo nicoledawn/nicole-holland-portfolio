@@ -34,7 +34,7 @@ const Cloud = () => {
                         <h2>&gt; Project Summary</h2>
                         <p>This website was built for a local Squamish wellness spa business. The client was wanting a site based on their physical location's design and style with the ability for the client to easily make changes to the site without the need for a developer. </p>
                         <h2>&gt; Project Solution</h2>
-                        <p>I decided to use Squarespace for this project to ensure the site would be able to be maintained by the client themselves going forward. I kept the design fairly simple to achieve the clients desired aesthetic. It was important to be able to add the booking links for the clients scheduling system, and the booking links for the contractors that were not on the client's own scheduling system.</p>
+                        <p>I decided to use Squarespace for this project to ensure the site would be able to be maintained by the client themselves going forward. I kept the design fairly simple to achieve the clients desired aesthetic. It was important to be able to add the booking links for the clients scheduling system, and the booking links for the contractors that were not on the client's own scheduling system. This site is actually still in progress and eventually will have a technicians page and a blog page when the client is ready.</p>
                         <div className="project-buttons">
                             <a rel="noreferrer noopener"  target="_blank" href="https://www.cloud9wellnessspa.com/">View Live Site</a>
                            
