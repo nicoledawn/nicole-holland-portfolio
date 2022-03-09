@@ -1,0 +1,58 @@
+/* color palette & breakpoints*/
+
+:root {
+    --dark-color: #103b58;
+    --main-text-color: #7ddcbe ;
+    --small-headings: #fac765;
+    --large-headings: #f08625 ;
+    --accent-color: #ed5849 ;
+    --white: #fff;
+
+    --desktop: 49.375em;
+    --tablet: 32.75em;
+    --mobile:  6em;
+  }
+
+  
+
+.header-nav {
+   width: 100%; 
+   padding: 0.5rem 0;
+   position: sticky;
+   top:0;
+   z-index: 30;
+   opacity: 0;
+   transition: 1s;
+}
+
+.show-nav {
+    background-color: #103b58;
+    border-bottom: black 1px solid;
+    opacity: 1 !important;
+    transition: 1s;
+
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 30;
+}
+
+.logo-home {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: var(--small-headings);
+}
+
+.logo-home:hover {
+    background-color: var(--small-headings);
+    color: var(--dark-color);
+    border-color: var(--small-headings);
+    border-radius: 20px 0 20px 0;
+    transition: 0.5s;
+}

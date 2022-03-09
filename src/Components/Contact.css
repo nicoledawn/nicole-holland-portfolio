@@ -1,0 +1,42 @@
+.contact {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    padding: 10rem 1rem 0.5rem 1rem;
+    width: 100%;
+}
+
+@media (min-width: 49em) {
+    .contact {
+        
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+.contact h2 {
+    
+    padding-top: 3rem;
+    border-right: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+.contact a {
+    text-decoration: overline;
+    border: none;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.contact a:hover {
+    border: none;
+    background-color: transparent;
+    color: var(--small-headings);
+}
+
+
+@media (min-width: 80em) {
+    .contact {
+        padding: 10rem 3rem 0 3rem;
+    }
+}
