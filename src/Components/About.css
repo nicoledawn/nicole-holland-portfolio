@@ -1,14 +1,15 @@
-.section-height {
+/* .section-height {
     min-height: 50vh;
-}
+} */
 
 .about {
 display: grid;
-max-width: 90%;
+max-width: 100%;
 margin: auto;
-padding-top: 10rem;
+padding: 2rem;
 grid-template-columns: 1fr;
 text-align: right;
+background-color: #05273e;
 
 }
 
@@ -24,8 +25,9 @@ text-align: right;
 @media (min-width: 49em) {
 
     .about {
-        max-width: 95%;
-        grid-template-columns:  2fr 1fr;
+        max-width: 100%;
+        grid-template-columns:  3fr 1fr;
+        padding: 2rem;
     }
     
 
@@ -41,16 +43,18 @@ text-align: right;
     }
 
     .about {
-        max-width: 70%;
+        max-width: 100%;
         grid-template-columns:  2fr 1fr;
-        margin-right: 3rem;
+        margin-right: 0rem;
+        padding: 5rem;
         }
     
 }
 
 @media (min-width: 70em) {
     .about {
-        max-width: 60%;
+        max-width: 100%;
+        
     }
 }
 

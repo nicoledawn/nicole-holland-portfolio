@@ -20,7 +20,7 @@ const Projects = () => {
     return (
         <>
             <section className='projects' id="projects">
-                <img src={triangle} alt="" className='bg-img-projects' />
+                {/* <img src={triangle} alt="" className='bg-img-projects' /> */}
 
                 <div className="project-grid">
                

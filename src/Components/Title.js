@@ -7,7 +7,7 @@ const Title = () => {
             <section className='title'>
                 <img src={bgimg} alt="bg-image" className="bg-img-title" />
                 <h1 className='title-h1'>Nicole Holland</h1>
-                <h2>Front-end Web Developer</h2>
+                <h2>Full Stack Web Developer</h2>
                 <ul className='nav-2'>
                     <li><a href="#about">&gt; about</a></li>
                     <li><a href="#projects">&gt; view projects</a></li>

@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: repeat(1, 100%);
     margin: 2rem 1rem;
-    padding-top: 10rem;
-    min-height: 90vh;
+    padding: 3rem;
+    /* min-height: 90vh; */
     z-index: 10;
     position: relative;
 }
@@ -24,7 +24,7 @@
 .project-area {
     position: relative;
     z-index: 9;
-    max-width: 95%;
+    max-width: 100%;
 
 }
 
@@ -108,7 +108,7 @@
 
  @media (min-width: 64em) {
     .projects {
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(1, 100%);
         
     }
 

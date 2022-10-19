@@ -5,8 +5,8 @@ const Resume = () => {
     return (
         <>
             <section className="cv" id="cv">
-                <img src={triangle} alt="bg-image-triangle" className='bg-img-cv' />
-               <div></div>
+                {/* <img src={triangle} alt="bg-image-triangle" className='bg-img-cv' /> */}
+               
                <div>
                <h2>&gt; My C.V.</h2>
                 <div className="resume-scroll">
@@ -17,13 +17,14 @@ const Resume = () => {
                         <div className="grid-skills">
                         <ul>
                             <h4>&gt; Technologies</h4>
-                            <li>HTML5/CSS</li>
-                            <li>Sass</li>
+                            <li>Ruby on Rails</li>
                             <li>React.js</li>
+                            <li>Sass</li>
                             <li>three.js</li>
                             <li>Javascript/JQuery</li>
                             <li>PHP</li>
                             <li>MySQL</li>
+                            <li>HTML5/CSS</li>
                             <li>Git/Github</li>
                         </ul>
                         <ul>
@@ -58,8 +59,32 @@ const Resume = () => {
                         <h3>&gt; Work Experience</h3>
 
                         <article className="work-item">
-                            <h4>Web Designer + Developer</h4>
-                            <p>Chewy Creative | January 2022 - Present</p>
+                            <h4>Web Designer + Developer [Contract]</h4>
+                            <p>Small Town Girl Promotions | Mar 2022 - Present</p>
+                            <ul>
+                                <li>Designing and updating client websites using Squarespace, Shopify, Wordpress and Wix CMS</li>
+                                 <li>Adding JQuery based functionality and custom features to client sites</li>
+                                <li>Designing and editing high fidelity website mock-ups in Adobe XD</li>
+                                <li>Implementing SEO strategies and advising clients on best practices </li>
+                            </ul>
+                        </article>
+
+                        <article className="work-item">
+                            <h4>Client Support Specialist</h4>
+                            <p>Blender Media | April 2022 - August 2022</p>
+                            <ul>
+                                <li>Updating client websites through proprietry CMS</li>
+                                <li>Updating client website templates using Javascript, CSS, HTML and PHP</li>
+                                <li>Providing support to  clients by email and phone using ticketing system</li>
+                                <li>Email distribution and subscriber list management for clients</li>
+                                <li>Liaise with design, development, projects and sales teams to fulfill client requests</li>
+                                <li>Completing Internal projects</li>
+                            </ul>
+                        </article>
+
+                        <article className="work-item">
+                            <h4>Web Designer + Developer [Contract]</h4>
+                            <p>Chewy Creative | January 2022 - April 2022</p>
                             <ul>
                                 <li>Adding JQuery based functionality and custom features to Squarespace sites</li>
                                 <li>CSS/SCSS design for Squarespace websites</li>
