@@ -5,7 +5,7 @@ const Title = () => {
     return (
         <>
             <section className='title'>
-                <img src={bgimg} alt="bg-image" className="bg-img-title" />
+                <img src={bgimg} alt="bg-triangle" className="bg-img-title" />
                 <h1 className='title-h1'>Nicole Holland</h1>
                 <h2>Full Stack Web Developer</h2>
                 <ul className='nav-2'>

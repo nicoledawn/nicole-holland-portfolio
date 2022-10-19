@@ -11,7 +11,7 @@ import blubird from '../Assets/slide1-blubrd.png';
 import tonquin from '../Assets/tonquin-slide1.png';
 import viewport from '../Assets/slide2-viewport.png';
 import cloud9 from '../Assets/slide1-cloud9.png';
-import triangle from '../Assets/test-img.png';
+// import triangle from '../Assets/test-img.png';
 import portfolio from '../Assets/slide1-portfolio.png';
 
 const Projects = () => {

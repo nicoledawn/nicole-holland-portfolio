@@ -1,5 +1,5 @@
 import './Resume.css';
-import triangle from '../Assets/test-img.png';
+// import triangle from '../Assets/test-img.png';
 
 const Resume = () => {
     return (

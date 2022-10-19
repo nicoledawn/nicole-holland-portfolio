@@ -1,6 +1,6 @@
 import './About.css';
 import headshot from '../Assets/headshot.jpg';
-import triangle from '../Assets/test-img.png';
+// import triangle from '../Assets/test-img.png';
 
 const About = () => {
     return (
