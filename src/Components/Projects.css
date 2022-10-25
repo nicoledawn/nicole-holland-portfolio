@@ -1,3 +1,5 @@
+
+
 .projects {
     display: grid;
     grid-template-columns: repeat(1, 100%);
@@ -95,6 +97,7 @@
   }
 
   .project-card a {
+    margin: 2rem auto;
      width: fit-content;
      color: var(--small-headings);
   }

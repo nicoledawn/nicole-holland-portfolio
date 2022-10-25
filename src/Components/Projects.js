@@ -9,6 +9,7 @@ import 'swiper/css/scrollbar';
 import './Projects.css';
 import blubird from '../Assets/slide1-blubrd.png';
 import tonquin from '../Assets/tonquin-slide1.png';
+import alphablog from '../Assets/alphablog.png';
 import viewport from '../Assets/slide2-viewport.png';
 import cloud9 from '../Assets/slide1-cloud9.png';
 // import triangle from '../Assets/test-img.png';
@@ -41,7 +42,13 @@ const Projects = () => {
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log('slide change')}
                     >
-                        
+                        <SwiperSlide className='project-card'>
+                            
+                        <img className="slider-image" src={alphablog} alt="" />
+                            <h3>Alpha Blog</h3>
+                            <p>A Ruby on Rails blog project using associations, authentication systems and REST architecture.</p>
+                            <a href="https://alpha-blog-nh22.herokuapp.com/" rel="noreferrer noopener" target="_blank" >&gt; View Project</a>
+                        </SwiperSlide>
                         <SwiperSlide className='project-card'>
                             
                             <img className="slider-image" src={tonquin} alt="" />
